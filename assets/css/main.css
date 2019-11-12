@@ -182,19 +182,19 @@ input, select, textarea {
 			color: #ffffff !important;
 		}
 
-		a.special:not(.button) {
+		.special:not(.button) {
 			text-decoration: none;
 			border-bottom: 0;
-			display: block;
+			display: inline-block;
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
-			margin: 0 0 2em 0;
+			margin: 0 4em 2em 0;
 			text-transform: uppercase;
 		}
 
-			a.special:not(.button):before {
+			/* .special:not(.button):before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				display: inline-block;
@@ -207,7 +207,7 @@ input, select, textarea {
 				font-weight: 900;
 			}
 
-			a.special:not(.button):before {
+			.special:not(.button):before {
 				-moz-transition: background-color 0.2s ease-in-out;
 				-webkit-transition: background-color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out;
@@ -224,15 +224,15 @@ input, select, textarea {
 				text-indent: 0.15em;
 				vertical-align: middle;
 				width: 2em;
-			}
+			} */
 
-			a.special:not(.button):hover:before {
+			/* a.special:not(.button):hover:before {
 				background-color: rgba(255, 255, 255, 0.025);
 			}
 
 			a.special:not(.button):active:before {
 				background-color: rgba(255, 255, 255, 0.075);
-			}
+			} */
 
 	strong, b {
 		color: #ffffff;
