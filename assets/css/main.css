@@ -72,10 +72,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-.skills {
-	text-align: center;
-}
-
 
 /* Basic */
 
@@ -3816,6 +3812,10 @@ input, select, textarea {
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
 				text-align: right;
+			}
+
+			.skills {
+				text-align: center;
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
