@@ -195,7 +195,7 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
-			/* .special:not(.button):before {
+			.special:not(.button):before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				display: inline-block;
@@ -215,7 +215,7 @@ input, select, textarea {
 				transition: background-color 0.2s ease-in-out;
 				border-radius: 100%;
 				border: solid 2px rgba(255, 255, 255, 0.125);
-				content: '\f105';
+				/* content: '\f105'; */
 				display: inline-block;
 				font-size: 1.25em;
 				height: 2em;
@@ -225,15 +225,19 @@ input, select, textarea {
 				text-indent: 0.15em;
 				vertical-align: middle;
 				width: 2em;
-			} */
+			}
 
-			/* a.special:not(.button):hover:before {
+			.resume:not(.button):before {
+				content: '\f105';
+			}
+
+			a.special:not(.button):hover:before {
 				background-color: rgba(255, 255, 255, 0.025);
 			}
 
 			a.special:not(.button):active:before {
 				background-color: rgba(255, 255, 255, 0.075);
-			} */
+			}
 
 	strong, b {
 		color: #ffffff;
@@ -2086,6 +2090,14 @@ input, select, textarea {
 
 	section.special, article.special {
 		text-align: center;
+	}
+
+	.link button {
+		border: 1px solid rgba(255, 255, 255, 0.35);
+		border-radius: 15px;
+		padding-botton: 1em;
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 
 /* Form */
