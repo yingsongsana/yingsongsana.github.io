@@ -195,6 +195,11 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
+		.resume:not(.button) {
+			display: inline;
+			margin-left: 0;
+		}
+
 			.special:not(.button):before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
